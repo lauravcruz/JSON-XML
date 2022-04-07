@@ -1,0 +1,152 @@
+{
+    "Supermercados": [
+        {
+            "nombre": "Carrefour",
+            "direccion:": "Ronda Urbana Nte, s/n, 41015 Sevilla",
+            "geolocalizacion": [
+                {
+                    "latitud": "37.40352335463635",
+                    "longitud": "-5.981114862496099"
+                }
+            ],
+            "departamentos": [
+                {
+                    "pescaderia": [
+                        {
+                            "nombre": "Bacalao",
+                            "origen": "Bilbao",
+                            "unidad de medida": "KG",
+                            "precio": "9,95€/kg",
+                            "oferta": "-20%: el kilo sale a 7,95€",
+                            "periodo de vigencia": "1 semana",
+                            "adquirido": true
+                        },
+                        {
+                            "nombre": "Dorada",
+                            "origen": "Mar Mediterráneo",
+                            "unidad de medida": "KG",
+                            "precio": "6,98€/kg",
+                            "oferta": "Comprando 2, la pieza sale a 3,35€",
+                            "periodo de vigencia": "2 semanas",
+                            "adquirido": false
+                        }
+                    ],
+                    "carniceria": [
+                        {
+                            "nombre": "Costillas de cerdo",
+                            "origen": "Badajoz",
+                            "unidad de medida": "KG",
+                            "precio": "5,65€/kg",
+                            "oferta": "-15%: el kilo sale a 4,79€",
+                            "periodo de vigencia": "Hasta fin de existencias",
+                            "adquirido": false
+                        },
+                        {
+                            "nombre": "Chuletón de vacuno",
+                            "origen": "Ávila",
+                            "unidad de medida": "KG",
+                            "precio": "15,99€/kg",
+                            "oferta": "-15%: el kilo sale a 13,49€",
+                            "periodo de vigencia": "3 semanas",
+                            "adquirido": true
+                        }
+                    ],
+                    "fruteria": [
+                        {
+                            "nombre": "Fresón",
+                            "origen": "Huelva",
+                            "unidad de medidad": "KG",
+                            "precio": "2,58€/KG",
+                            "oferta": null, 
+                            "periodo de vigencia": null,
+                            "adquirido": true
+                        },
+                        {
+                            "nombre": "Plátano de Canarias",
+                            "origen": "Canarias",
+                            "unidad de medidad": "KG",
+                            "precio": "2,99€/KG",
+                            "oferta": "-34%: el kilo sale a 1,95€",
+                            "periodo de vigencia": "Hasta el 3 de abril de 2022",
+                            "adquirido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Hipercor",
+            "direccion:": "Av. de las Erillas, s/n, 41920 San Juan de Aznalfarache, Sevilla",
+            "geolocalizacion": [
+                {
+                    "latitud": "37.35813",
+                    "longitud": "-74.0059413"
+                }
+            ],
+            "departamentos": [
+                {
+                    "pescaderia": [
+                        {
+                            "nombre": "Bacalao",
+                            "origen": "Noruega",
+                            "unidad de medida": "Piezas de 2 a 4 kg",
+                            "precio": "8,50€",
+                            "oferta": null,
+                            "periodo de vigencia": null,
+                            "adquirido": false
+                        },
+                        {
+                            "nombre": "Lubina",
+                            "origen": "España",
+                            "unidad de medida": "Piezas de 900 a 1500g",
+                            "precio": "19,95€",
+                            "oferta": "-50%: 9,98€",
+                            "periodo de vigencia": "Hasta el 6 de abril de 2022",
+                            "adquirido": false
+                        }
+                    ],
+                    "carniceria": [
+                        {
+                            "nombre": "Chuletas de cordero lechal",
+                            "origen": "España",
+                            "unidad de medida": "KG",
+                            "precio": "21,95€/kg",
+                            "oferta": "-50%: el kilo sale a 10,98€",
+                            "periodo de vigencia": "Hasta el 6 de abril de 2022",
+                            "adquirido": false
+                        },
+                        {
+                            "nombre": "Hamburguesas de Angus Miguel Vergara",
+                            "origen": "Valladolid",
+                            "unidad de medida": "Bandejas de dos unidades (320g)",
+                            "precio": "5,50€, (17,19€/kg)",
+                            "oferta": "-50%: la bandeja te sale a 2,75€",
+                            "periodo de vigencia": "Hasta el 6 de abril de 2022",
+                            "adquirido": true
+                        }
+                    ],
+                    "fruteria": [
+                        {
+                            "nombre": "Aguacate planeta verde",
+                            "origen": "Perú",
+                            "unidad de medidad": "Bandeja de 3 piezas, 400g",
+                            "precio": "1,75€/kg",
+                            "oferta": "no",
+                            "periodo de vigencia": "no",
+                            "adquirido": false
+                        },
+                        {
+                            "nombre": "Naranja de mesa",
+                            "origen": "España",
+                            "unidad de medidad": "Malla de 2 kg",
+                            "precio": "4,35€/KG",
+                            "oferta": "-50%: la malla sale a 4,35€",
+                            "periodo de vigencia": "Hasta el 3 de abril de 2022",
+                            "adquirido": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

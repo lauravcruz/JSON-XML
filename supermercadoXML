@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Supermercados>
+  <Supermercado>
+    <nombre>Carrefour</nombre>
+    <direccion>Ronda Urbana Nte, s/n, 41015 Sevilla</direccion>
+    <geolocalizacion>
+      <latitud>37.40352335463635</latitud>
+      <longitud>-5.981114862496099</longitud>
+    </geolocalizacion>
+    <departamentos>
+      <pescaderia>
+        <producto>
+          <nombre>Bacalao</nombre>
+          <origen>Bilbao</origen>
+          <unidad_medida>KG</unidad_medida>
+          <precio>9,95€/Kg</precio>
+          <oferta>-20%: el kilo sale a 7,95€</oferta>
+          <periodo_vigencia>1 semana</periodo_vigencia>
+          <adquirido>true</adquirido>
+        </producto>
+        
+        <producto>
+           <nombre>Dorada</nombre>
+          <origen>Mar Mediterráneo</origen>
+          <unidad_medida>KG</unidad_medida>
+          <precio>6,98€/Kg</precio>
+          <oferta>Comprando 2, la pieza sale a 3,35€</oferta>
+          <periodo_vigencia>2 semanas</periodo_vigencia>
+          <adquirido>false</adquirido>
+        </producto>
+      </pescaderia>
+      
+      <carniceria>
+        <producto>
+          <nombre>Costillas de cerdo</nombre>
+          <origen>Badajoz</origen>
+          <unidad_medida>KG</unidad_medida>
+          <precio>5,65€/Kg</precio>
+          <oferta>-15%: el kilo sale a 4,79€</oferta>
+          <periodo_vigencia>Hasta fin de existencias</periodo_vigencia>
+          <adquirido>false</adquirido>
+        </producto>
+        
+        <producto>
+           <nombre>Chuletón de vacuno</nombre>
+          <origen>Ávila</origen>
+          <unidad_medida>KG</unidad_medida>
+          <precio>15,99€/Kg</precio>
+          <oferta>-15%: el kilo sale a 13,49€</oferta>
+          <periodo_vigencia>3 semanas</periodo_vigencia>
+          <adquirido>true</adquirido>
+        </producto>
+      </carniceria>
+      
+      <fruteria>
+        <producto>
+          <nombre>Fresón</nombre>
+          <origen>Huelva</origen>
+          <unidad_medida>KG</unidad_medida>
+          <precio>2,58€/Kg</precio>
+          <oferta/> <!--La dejo vacía porque de momento no hay oferta registrada-->
+          <periodo_vigencia/>
+          <adquirido>true</adquirido>
+        </producto>
+        
+        <producto>
+           <nombre>Plátano de Canarias</nombre>
+          <origen>Canarias</origen>
+          <unidad_medida>KG</unidad_medida>
+          <precio>2,99€/Kg</precio>
+          <oferta>-34%: el kilo sale a 1,95€</oferta>
+          <periodo_vigencia>Hasta el 3 de abril de 2022</periodo_vigencia>
+          <adquirido>false</adquirido>
+        </producto>
+      </fruteria>
+    </departamentos>
+  </Supermercado>
+  
+  <Supermercado>
+    <nombre>Hipercor</nombre>
+    <direccion>Av. de las Erillas, s/n, 41920 San Juan de Aznalfarache, Sevilla</direccion>
+    <geolocalizacion>
+      <latitud>37.35813</latitud>
+      <longitud>-74.0059413</longitud>
+    </geolocalizacion>
+    <departamentos>
+      <pescaderia>
+        <producto>
+          <nombre>Bacalao</nombre>
+          <origen>Noruega</origen>
+          <unidad_medida>Piezas de 2 a 4 kg</unidad_medida>
+          <precio>8,50€/Kg</precio>
+          <oferta/>
+          <periodo_vigencia/>
+          <adquirido>false</adquirido>
+        </producto>
+        
+        <producto>
+           <nombre>Lubina</nombre>
+          <origen>España</origen>
+          <unidad_medida>Piezas de 900 a 1500g</unidad_medida>
+          <precio>19,95€</precio>
+          <oferta>-50%: sale a 9,98€</oferta>
+          <periodo_vigencia>Hasta el 6 de abril de 2022</periodo_vigencia>
+          <adquirido>false</adquirido>
+        </producto>
+      </pescaderia>
+      
+      <carniceria>
+        <producto>
+          <nombre>Chuletas de cordero lechal</nombre>
+          <origen>España</origen>
+          <unidad_medida>KG</unidad_medida>
+          <precio>21,95€/Kg</precio>
+          <oferta>-50%: el kilo sale a 10,98€</oferta>
+          <periodo_vigencia>Hasta el 6 de abril de 2022</periodo_vigencia>
+          <adquirido>false</adquirido>
+        </producto>
+        
+        <producto>
+           <nombre>Hamburguesas de Angus Miguel Vergara</nombre>
+          <origen>Valladolid</origen>
+          <unidad_medida>Bandejas de dos unidades (320g)</unidad_medida>
+          <precio>5,50€, (17,19€/kg)</precio>
+          <oferta>-50%: la bandeja te sale a 2,75€</oferta>
+          <periodo_vigencia> Hasta el 6 de abril de 2022</periodo_vigencia>
+          <adquirido>true</adquirido>
+        </producto>
+      </carniceria>
+      
+      <fruteria>
+        <producto>
+          <nombre>Aguacate planeta verde</nombre>
+          <origen>Perú</origen>
+          <unidad_medida>Bandeja de 3 piezas, 400g</unidad_medida>
+          <precio>1,75€/kg</precio>
+          <oferta/>
+          <periodo_vigencia/>
+          <adquirido>false</adquirido>
+        </producto>
+        
+        <producto>
+           <nombre>Naranja de mesa</nombre>
+          <origen>España</origen>
+          <unidad_medida>Malla de 2 kg</unidad_medida>
+          <precio>4,35€/KG</precio>
+          <oferta>-50%: la malla sale a 4,35€</oferta>
+          <periodo_vigencia>Hasta el 3 de abril de 2022</periodo_vigencia>
+          <adquirido>true</adquirido>
+        </producto>
+      </fruteria>
+    </departamentos>
+  </Supermercado>
+</Supermercados>
